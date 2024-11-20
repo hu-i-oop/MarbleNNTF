@@ -5,6 +5,8 @@ A package to implement non-negative tensor factorization for EHR phenotyping in 
 
 # Directions for End-Users
 
+### Installing the Package
+
 • Ensure that `git` is installed in your device
 
 • Run the command `git clone https://github.com/hu-i-oop/MarbleNNTF/` in a terminal.
@@ -13,18 +15,11 @@ A package to implement non-negative tensor factorization for EHR phenotyping in 
 
 • Type `source("MarbleAlgorithm.R")` to load the function.
 
-
 Then, you may call the `Marble(...)` function in R to decompose X into a bias tensor and interaction tensor.
 
+To do so, you must have: (1) An array/tensor object in R, named `X`, (2) the number of ranks `R` of the outputted interaction tensor, and (3) Values set for the `alpha` and `gamma` hyperparameters.
 
-To do so, you must have:
-
-• An array/tensor object in R, named `X`.
-
-• The number of ranks `R` of the outputted interaction tensor.
-
-• Values set for the `alpha` and `gamma` hyperparameters.
-
+### How to Use the Package
 
 For example, for a Rank-3 Tensor X: `Marble(X = X, R = 5, alpha = 0.01, gamma = c(0.1, 0.1, 0.1))`
 
