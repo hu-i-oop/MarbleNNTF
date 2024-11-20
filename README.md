@@ -23,4 +23,4 @@ To do so, you must have: (1) An array/tensor object in R, named `X`, (2) the num
 
 For example, for a Rank-3 Tensor X: `Marble(X = X, R = 5, alpha = 0.01, gamma = c(0.1, 0.1, 0.1))`
 
-This function outputs a list of arrray objects: the bias tensor "C" and rank-(R = 5) interaction tensors "V", respectively.
+This function outputs a list of arrray objects: the bias tensor "C" and the rank-(R = 5) interaction tensor "V", respectively.
