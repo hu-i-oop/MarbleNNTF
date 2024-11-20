@@ -15,7 +15,7 @@ A package to implement non-negative tensor factorization for EHR phenotyping in 
 
 • Type `source("MarbleAlgorithm.R")` to load the function.
 
-Then, you may call the `Marble(...)` function in R to decompose X into a bias tensor and interaction tensor.
+Then, you may call the `Marble(...)` function in R to decompose any tensor into a bias tensor and interaction tensor.
 
 To do so, you must have: (1) An array/tensor object in R, named `X`, (2) the number of ranks `R` of the outputted interaction tensor, and (3) Values set for the `alpha` and `gamma` hyperparameters.
 
